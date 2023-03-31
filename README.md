@@ -1,4 +1,4 @@
-# Laravel 9 上傳具有相同名稱的檔案
+# Laravel 10 上傳具有相同名稱的檔案
 
 如果不同使用者上傳相同名稱檔案，避免覆蓋掉相同名稱的現有檔案。
 
@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan storage:link
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
 ```sh
@@ -38,5 +42,5 @@ $ php artisan migrate --seed
 ![](https://i.imgur.com/QXgHqS3.png)
 > 把上傳頭像作為註冊流程中的一個步驟
 
-![](https://i.imgur.com/viEcUMo.png)
+![](https://i.imgur.com/IqKqDO3.png)
 > 列出全部已註冊個人帳號資訊
