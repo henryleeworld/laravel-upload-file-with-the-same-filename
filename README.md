@@ -1,4 +1,4 @@
-# Laravel 10 上傳具有相同名稱的檔案
+# Laravel 11 上傳具有相同名稱的檔案
 
 如果不同使用者上傳相同名稱檔案，避免覆蓋掉相同名稱的現有檔案。
 
@@ -39,8 +39,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/QXgHqS3.png)
+![](https://i.imgur.com/C2Yucui.png)
 > 把上傳頭像作為註冊流程中的一個步驟
 
-![](https://i.imgur.com/IqKqDO3.png)
+![](https://i.imgur.com/1Oaj2f7.png)
 > 列出全部已註冊個人帳號資訊
