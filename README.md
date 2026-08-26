@@ -1,4 +1,4 @@
-# Laravel 12 上傳具有相同名稱的檔案
+# Laravel 13 上傳具有相同名稱的檔案
 
 如果不同使用者上傳相同名稱檔案，避免覆蓋掉相同名稱的現有檔案。
 
@@ -39,8 +39,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/fSQVoqK.png)
-> 把上傳頭像作為註冊流程中的一個步驟
+![](https://i.imgur.com/GcMQTMJ.png)
+> 把上傳大頭貼作為註冊流程中的一個步驟
 
-![](https://i.imgur.com/YKdrQDg.png)
+![](https://i.imgur.com/v4DActa.png)
 > 列出全部已註冊個人帳號資訊
